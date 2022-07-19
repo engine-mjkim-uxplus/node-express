@@ -1,5 +1,6 @@
 "use strict";
 // 컨트롤러의 역할을 하는 소스파일
+// req데이터를 가공하고 필요한 service에 데이터를 전달하는 역할
 const home = (req, res) => {
   res.render("home/index");
 };
